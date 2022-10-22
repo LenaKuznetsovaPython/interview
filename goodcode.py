@@ -68,4 +68,5 @@ if __name__ == '__main__':
     parser.add_argument('-f', '--full_name', action='store_true', )
     args = parser.parse_args()
 
+    print(args.path)
     print_tree(args.path, 4)
